@@ -1,0 +1,44 @@
+/* .email{
+  
+   
+    
+    margin-right: 50px;
+} */
+
+.gutter-example .ant-row > div {
+    background: transparent;
+    border: 0;
+  }
+  .gutter-box {
+    background: #00A0E9;
+    padding: 5px 0;
+  }
+
+
+  .ant-col-6 {
+
+    display: block;
+    box-sizing: border-box;
+    width: 25%;
+    
+
+}
+
+
+
+.ant-col-8 {
+
+    display: block;
+    box-sizing: border-box;
+    width: 11.333%;
+    padding: -27px;
+    padding-right: 3px;
+    padding-left: 68px;
+    margin-right: 0px;
+   
+
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+    background-color: #1890ff;
+}

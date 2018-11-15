@@ -1,0 +1,88 @@
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+
+
+const CleintSchema  = new Schema({
+    cleintId:{
+        type:String,
+        required:true
+    },
+    nameForm:{
+        type:String,
+        required:true
+    },
+    emailForm:{
+        type:String,
+        required:true 
+    },
+    addressForm:{
+        type:String,
+        required:true
+    },
+    mobileForm:{
+        type:String,
+        required:true
+    },
+    businessNumber:{
+        type:String,
+        required:true
+    },
+    invoiceNumber:{
+        type:String,
+        required:true
+    },
+    date:{
+        type:String,
+        required:true
+    },
+    terms:{
+        type:String,
+        required:true
+    },
+    due:{
+        type:String,
+        required:true
+    },
+    price:{
+        type:String,
+        required:true
+    },
+    quantity:{
+        type:String,
+        required:true
+    },
+    amount:{
+        type:String,
+        required:true
+    },
+    tax:{
+        type:String,
+        required:true
+    },
+    gst:{
+        type:String,
+        required:true
+    },
+    description:{
+        type:String,
+        required:true
+    },
+    nameTo:{
+        type:String,
+        required:true
+    },
+    emailTo:{
+        type:String,
+        required:true 
+    },
+    addressTo:{
+        type:String,
+        required:true
+    },
+    mobileTo:{
+        type:String,
+        required:true
+    },
+})
+
+module.exports = mongoose.model('Client', CleintSchema);

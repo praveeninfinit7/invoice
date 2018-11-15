@@ -1,0 +1,43 @@
+
+
+
+
+.image{
+    padding-bottom: 0px;
+}
+
+
+
+.invoice-box table tr td:nth-child(2) {
+
+    text-align: left;
+
+}
+/* .invoice-box table tr.information table td {
+
+    text-align: left;
+    padding-bottom: 69px;
+    margin-right: 20px;
+
+} */
+
+
+
+.invoice-box table tr.information table td {
+    text-align: left;
+    padding-bottom: 23px;
+    margin-right: 20px;
+}
+
+.viewTo{
+    text-align: right;
+    padding-bottom: 0px;
+    margin-right: 20px;
+}
+.image{
+    padding-left: 420px;
+    margin: -90px;
+} 
+.dataSpan{
+margin-left: 5px;
+}

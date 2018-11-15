@@ -1,0 +1,92 @@
+ .content {
+  min-height: 1600px;
+}
+.anticon svg {
+  display: inline-block;
+}
+
+.ant-menu-item > a {
+
+  color: rgba(255, 255, 255, 0.65);
+
+}
+
+.ant-menu-dark.ant-menu-inline,
+.ant-menu-dark.ant-menu-vertical,
+.ant-menu-dark.ant-menu-vertical-left,
+.ant-menu-dark.ant-menu-vertical-right {
+  border-right: 0;
+  padding-top: 10px;
+}
+.admin {
+  animation-fill-mode: both;
+  animation-delay: 0s;
+  white-space: nowrap;
+  vertical-align: text-bottom;
+  transition: all 0.25s ease-out;
+  vertical-align: text-bottom;
+
+  justify-content: center;
+  font-size: 16px;
+
+  text-transform: uppercase;
+
+  display: inline-block;
+
+  font-weight: 700;
+
+  color: #e5f0fa;
+
+  white-space: nowrap;
+
+  -webkit-animation: Layout__fadeLeftIn___3Wvr2 500ms linear;
+
+  animation: Layout__fadeLeftIn___3Wvr2 500ms linear;
+
+  -webkit-animation-fill-mode: both;
+
+  animation-fill-mode: both;
+}
+.admin::after {
+  display: block;
+}
+.create::after {
+  color: red;
+  cursor: pointer;
+  border-right: 3px solid #1890ff;
+}
+
+.ant-menu-submenu .ant-menu-sub {
+  cursor: auto;
+}
+
+.components-layout-demo-side .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+.ant-menu-item::after {
+  border-right: 3px solid #1890ff;
+}
+
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.ant-menu-dark .ant-menu-item-selected > a,
+.ant-menu-dark .ant-menu-item-selected > a:hover {
+  color: #fff;
+}
+
+a {
+  color: #1890ff;
+  background-color: transparent;
+}
+ 
+#components-layout-demo-responsive .logo {
+  height: 32px;
+  background: rgba(255,255,255,.2);
+  margin: 16px;
+}
